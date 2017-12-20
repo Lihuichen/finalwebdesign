@@ -1,0 +1,518 @@
+/*homepage stuff*/
+html {
+    background-color: white;
+}
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.slidesjs-previous {
+  font-size: 0px;
+}
+
+.slidesjs-navigation {
+  font-size: 0px;
+}
+
+
+#flowingskirt {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+}
+
+.homeheader{
+  position: absolute;
+  z-index: 1;
+  left:1100px;
+  top:300px;
+  height:100px;
+}
+
+.forever21header{
+  position: absolute;
+  left:800px;
+  height:100px;
+}
+
+#start{
+  position: absolute;
+  z-index: 1;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  top:400px;
+  left:1150px;
+}
+
+
+#menubar{ /*this is the container for the menu bar */
+  position:absolute;
+  width:500px;
+  top:50px;
+  left:0px;
+}
+
+.tab { /*these are the style for the tab in the home page*/
+	position:absolute;
+	top:100px;
+	left:100px;
+  z-index: 1;
+ 	font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+ 	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 80px;
+	list-style-type: none;
+
+}
+
+/*commands for active and inactive links on homepage*/
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #c9476c;
+}
+
+a:visited {
+  color: black;
+}
+
+/*search bar*/
+#searchbar{
+padding: 7px;
+background-color: transparent;
+font-size: 18px;
+font-family:Didot;
+border: 2px solid #c9476c;
+position:relative;  
+left:130px;
+top:700px;
+
+}
+
+
+
+
+
+/*forever21_dresspage the second page*/
+
+#menucontainer{
+  background-color:none;
+  position:absolute;
+  height:600px;
+  width:400px;
+  top:150px;
+  left:70px;
+}
+
+#arrowback {
+  border: solid #c9476c;
+  border-width: 0 1.5px 1.5px 0;
+  position:absolute;
+  top:25px;
+  height:18px;
+  width:18px;
+  z-index: 1;
+  transform: rotate(135deg);
+}
+
+#dressesandskirts { /*these are the style for the tab in the home page*/
+  position:absolute;
+  left:35px;
+  top:-32px;
+  z-index: 1;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 28px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 80px;
+  list-style-type: none;
+  color:#c9476c;
+  
+}
+.options { /*These are the styles for the mini options in the second page size, color, price*/
+  position:absolute;
+  top:50px;
+  z-index: 1;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 100px;
+  list-style-type: none;
+  color: #c9476c;
+  
+}
+
+.sizebutton {/*button style for size options on second page*/
+      top:150px;
+      left:30px;
+      position:relative;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      border: solid 1.5px;
+      color: #c9476c;
+      background-color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 10px 10px;    
+}
+.sizebutton:hover{
+  box-shadow: 0px 0px 0px 2px #c9476c;
+}
+
+.sizebutton:active{
+  box-shadow: 0px 0px 0px 2px #c9476c;
+}
+
+.colorbutton {/*button style for color options on second page*/
+      top:200px;
+      left:35px;      
+      position:relative;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: solid 1.5px;
+      color: #c9476c;
+      background-color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 20px 2px;
+}
+
+.colorbutton:hover{
+    box-shadow: 0px 0px 0px 2px #c9476c;
+
+}
+
+.colorbutton:active{
+  box-shadow: 0px 0px 0px 2px #c9476c;
+
+}
+
+#colorbutton1 {
+  background-color:black;
+}
+#colorbutton2 {
+  background-color:red;
+}
+#colorbutton3 {
+  background-color:blue;
+}
+#colorbutton4 {
+  background-color:green;
+}
+#colorbutton5 {
+  background-color:pink;
+}
+#colorbutton6 {
+  background-color:orange;
+}
+#colorbutton7 {
+  background-color:yellow;
+}
+#colorbutton8 {
+  background-color:grey;
+}
+#colorbutton9 {
+  background-color:purple;
+}
+#colorbutton10 {
+  background-color:white;
+}
+
+/*This is everything for the slider on the second page*/
+
+#slidercontainer {
+    width: 275px; /* Width of the outside container */
+    position: absolute;
+    top:360px;
+    left:35px;
+}
+.number{
+  position:absolute;
+  color:#c9476c;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+}
+#hundred{
+  left:230px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px;
+    border-radius: 10px; 
+    background: #c9476c; /* Grey background */
+    outline:none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use webkit (Chrome, Opera, Safari, Edge) and moz (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    background: white; /* Green background */
+    border:2px solid #c9476c;;
+    cursor: pointer; /* Cursor on hover */
+}
+
+/*......................slideshow......................*/
+.dressimages{
+height:350px;
+}
+
+#slides {
+  display:none;
+  width:945px;
+  height:700px;
+  position:absolute;
+  top:125px;
+  left:475px;
+}
+
+.slidesjs-pagination {
+  list-style:none;
+  position:absolute;
+  left:30px;
+  top:30px;
+  z-index: 10;
+}
+
+.slidesjs-pagination li a {
+  overflow: hidden;
+  color: transparent;
+  margin-right: 30px;
+}
+
+.slidesjs-next {
+  border: solid black;
+  border-width: 0 1.5px 1.5px 0;
+  position:absolute;
+  top:340px;
+  left:20px;
+  height:30px;
+  width:30px;
+  z-index: 10;
+  transform: rotate(135deg);
+}
+
+.slidesjs-previous {
+  border: solid black;
+  border-width: 0 1.5px 1.5px 0;
+  position:absolute;
+  top:340px;
+  left:900px;
+  height:30px;
+  width:30px;
+  z-index: 10;
+  transform: rotate(315deg);
+}
+
+/*......................slideshow end......................*/
+
+.thumbnail {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: -335px;
+  left: 0px;
+  height: 375px;
+  width: 233px;
+  opacity: 0;
+  background-color: #c9476c;
+}
+
+#text {
+  color:white;
+  font-size: 16px;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-weight: 500;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*single dress page*/
+
+/*Main image window to view dress*/
+
+.icons{
+  width:40px;
+  margin:20px;
+  position:relative;
+  top:10px;
+  left:1200px;
+}
+
+#getitbutton{
+height:100px;
+position:absolute;
+top:740px;
+left:575px;
+}
+
+#gobackbutton{
+height:100px;
+position:absolute;
+top:740px;
+left:775px;
+}
+
+
+#imagewindow{
+  position:absolute;
+  height:650px;
+  width:500px;
+}
+
+/*row of thumbnails*/
+
+#thumbnailcontainer{
+  position:absolute;
+  height:80px;
+  width:160px;
+  top:750px;
+  left:375px;
+  z-index: 10;
+}
+
+.thumbnailfront {
+position:relative;
+width:50px;
+}
+
+
+.thumbnailback {
+position:relative;
+width:50px;
+}
+.thumbnailside {
+position:relative;
+width:50px;
+}
+
+
+.imagewindowfront{
+  position:absolute;
+  height:775px;
+
+}
+
+.imagewindowback{
+  position:absolute;
+  height:775px;
+
+}
+
+.imagewindowside{
+  position:absolute;
+  height:775px;
+
+}
+
+.colorbuttonlarge{
+      position:absolute;
+      top:50px;
+      left:40px;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      border: solid 1.5px;
+      color: #c9476c;
+}
+
+#sizecontainer_two{
+  position:relative;
+  width:10px;
+  left:440px;
+  top:200px;
+}
+
+
+#textbox{ /*the box that contains all the descriptions for the dress*/
+position:absolute;
+top:200px;
+left:600px;
+height:500px;
+}
+
+.product_info{ /*the style to the product info header*/
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+
+}
+
+.decription_title{ /*the style to "Details" "content+care" and "size+fit"*/
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+
+
+}
+.text{/*this the style to the smaller paragraphs that I have not added to the html yet because I was having trouble*/
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  color:black;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #c9476c;
+}
+
+
+
+
+
